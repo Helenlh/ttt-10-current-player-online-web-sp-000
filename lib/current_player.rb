@@ -14,6 +14,7 @@ end
  
 
 def current_player(count)
+  
   if count % 2 
       turn = "O" 
       
