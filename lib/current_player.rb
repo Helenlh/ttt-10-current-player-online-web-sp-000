@@ -2,7 +2,7 @@ require "pry"
 def turn_count(board) 
   count = 0 
   board.each do |entry| 
-    binding pry 
+    binding.pry 
     if board[entry] == "X" || "O"
       count +=1 
         # string = number.to_i 
