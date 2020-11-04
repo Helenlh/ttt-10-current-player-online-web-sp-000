@@ -6,13 +6,13 @@ def turn_count(board)
     # string = number.to_i 
     #   index = string - 1 
       count +=1 
-    current_player(board, count)
+    current_player(count)
 end 
 end 
 end 
 
 
-def current_player(board, count)
+def current_player(count)
   if count % 2 
       turn = "X" 
   else  
