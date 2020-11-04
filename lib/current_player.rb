@@ -6,7 +6,7 @@ def turn_count(board)
     # string = number.to_i 
     #   index = string - 1 
     current_player(count)
-    
+    count +=1 
 end 
 end 
 end 
