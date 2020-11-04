@@ -12,8 +12,8 @@ count
 end 
  
 
-def current_player(count)
-  
+def current_player(board)
+  count = turn_count
   if count % 2 
       turn = "O" 
       
