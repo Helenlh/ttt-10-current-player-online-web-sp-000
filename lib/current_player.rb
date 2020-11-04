@@ -14,9 +14,9 @@ end
 
 def current_player(board, count)
   if count % 2 
-      turn = "X" 
+      turn = "O" 
   else  
-    turn = "O" 
+    turn = "X" 
   end 
 end 
 
