@@ -1,8 +1,8 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def turn_count(board) 
-  count = 0 
-  board.each do |index| 
-    if board[index] = "X" || "O"
+  count = 1 
+  board.each do |entry| 
+    if board[entry] = "X" || "O"
     # string = number.to_i 
     #   index = string - 1 
     current_player(count)
