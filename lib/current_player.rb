@@ -17,6 +17,6 @@ def current_player(count)
       turn = "X" 
   else  
     turn = "O" 
-  end  
+  end   
 end 
 
