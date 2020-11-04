@@ -5,8 +5,8 @@ def turn_count(board)
     if board[count] = "X" || "O"
     # string = number.to_i 
     #   index = string - 1 
-      count +=1 
     current_player(count)
+    
 end 
 end 
 end 
