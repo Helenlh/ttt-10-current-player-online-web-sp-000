@@ -4,9 +4,7 @@ def turn_count(board)
   board.each do |entry| 
     if entry == "X" || entry == "O"
       count +=1 
-        # string = number.to_i 
-       #   index = string - 1 
-end 
+    end 
 end 
 count 
 end 
